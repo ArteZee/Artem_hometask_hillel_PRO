@@ -2,6 +2,9 @@ from typing import List
 
 
 def find_uniq(dataset: List[int]) -> int:
+    """
+    function get unique number of list
+    """
     # create unique number in set
     unique_number = set(dataset)
     # count how many number in massive
@@ -24,6 +27,9 @@ def find_uniq(dataset: List[int]) -> int:
 
 
 def find_uniq_2(dataset: List[int]) -> int:
+    """
+        function get unique number of list
+    """
     # sorted our massive
     sort_num = sorted(dataset)
 
